@@ -35,6 +35,7 @@ public class C03_xpath_cssSelector {
 
         //6-  Gift Cards sekmesine basin
         driver.findElement(By.xpath("//a[text()='Gift Cards']")).click();
+
         //7-  Birthday butonuna basin
         Thread.sleep(1000);
         driver.findElement(By.xpath("//a[@aria-label='Birthday']")).click();
